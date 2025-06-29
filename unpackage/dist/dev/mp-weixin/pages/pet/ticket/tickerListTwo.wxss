@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.active {
+  background: #c2e9fb !important;
+}
+.Listbox {
+  padding-top: 10rpx;
+  height: 80vh;
+  overflow: hidden;
+}
+.colorccc {
+  color: #8c8c8c;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.flex3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.toptitle {
+  background: #fff;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  padding: 10rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.ticket_item {
+  background: #fff;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20rpx;
+}
+.ticket_item .ticket_item_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ticket_item .ticket_item_top .ticket_item_top_left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.ticket_item .ticket_item_top_right .label {
+  width: 80rpx;
+  height: 30rpx;
+  background: red;
+  font-size: 10rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  border-radius: 10rpx;
+  color: #ff4c4f;
+}

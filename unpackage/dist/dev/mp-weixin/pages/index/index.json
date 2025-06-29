@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "云南怡健疗养",
+  "onReachBottomDistance": 50,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "rf-swipe-dot": "/components/rf-swipe-dot/index",
+    "rf-swiper-slide": "/components/rf-swiper-slide/index",
+    "rf-search": "/components/rf-search2/rf-search2",
+    "pet-index-mescroll-item": "/pages/index/index-mescroll-item",
+    "rf-warap-info": "/components/rf-wrap-info/rf-wrapinfo",
+    "fr-ad": "/components/rf-index-ad/ad"
+  }
+}

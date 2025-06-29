@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "发布宠物专车信息",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

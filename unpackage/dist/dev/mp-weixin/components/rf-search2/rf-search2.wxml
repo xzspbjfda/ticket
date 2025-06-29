@@ -1,0 +1,1 @@
+<view class="serach"><u-search bind:input="__e" vue-id="0fea7262-1" placeholder="{{keyword}}" animation="{{true}}" value="{{value}}" data-event-opts="{{[['^input',[['__set_model',['','value','$event',[]]]]]]}}" bind:__l="__l"></u-search></view>

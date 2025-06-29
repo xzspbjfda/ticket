@@ -1,0 +1,200 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/notice/notice",
+    "pages/index/notice/detail",
+    "pages/index/search/search",
+    "pages/product/list",
+    "pages/product/product",
+    "pages/adopt/list",
+    "pages/cart/cart",
+    "pages/profile/profile"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/pet",
+      "pages": [
+        "404",
+        "web",
+        "city",
+        "pet-view",
+        "forum-view",
+        "apply-post",
+        "apply-view",
+        "pet-post",
+        "tuoyunform-post",
+        "jiyangform-post",
+        "binzangform-post",
+        "hezuoform-post",
+        "weiyangform-post",
+        "zhuancheform-post",
+        "fabu-post",
+        "forum-post",
+        "comment-post",
+        "forum-comment-post",
+        "my",
+        "my-notify",
+        "my-post",
+        "my-apply",
+        "my-pet",
+        "my-tuoyunform",
+        "my-jiyangform",
+        "my-binzangform",
+        "my-hezuoform",
+        "my-weiyangform",
+        "my-zhuancheform",
+        "my-fabu",
+        "ask",
+        "forum",
+        "ticket/ticket",
+        "Hotel/Hotel",
+        "Hotel/Hotel_list",
+        "Hotel/Hotel_info",
+        "Hotel/Hotel_pay",
+        "Hotel/orderlist",
+        "Hotel/Hotel_order",
+        "admission/admission",
+        "admission/admission_info",
+        "admission/admission_pro",
+        "admission/admission_order",
+        "ticket/placeList",
+        "ticket/tickerList",
+        "ticket/tickerListTwo",
+        "tickerInfo/tickerInfo",
+        "tickerInfo/tickerInfoTwo",
+        "Ticket_orders/Ticket_orders",
+        "Ticket_orders/Ticket_ordersTwo",
+        "Ticket_orders/orders_info",
+        "Ticket_orders/status_info"
+      ]
+    },
+    {
+      "root": "pages/set",
+      "pages": [
+        "set",
+        "authorization/list",
+        "feedback/detail",
+        "feedback/list",
+        "feedback/feedback",
+        "about/about",
+        "about/detail",
+        "helper/index",
+        "helper/detail",
+        "invoice/list",
+        "invoice/invoice",
+        "invoice/manage"
+      ]
+    },
+    {
+      "root": "pages/public",
+      "pages": [
+        "register",
+        "login",
+        "web-view",
+        "logintype",
+        "password"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "order",
+        "orderlist",
+        "refund",
+        "search",
+        "refund/refund",
+        "evaluation/evaluation",
+        "evaluation/list",
+        "detail",
+        "create/order",
+        "shipping/shipping",
+        "shipping/return"
+      ]
+    },
+    {
+      "root": "pages/sellorder",
+      "pages": [
+        "order",
+        "refund",
+        "search",
+        "refund/refund",
+        "evaluation/evaluation",
+        "evaluation/list",
+        "detail",
+        "create/order",
+        "shipping/shipping",
+        "shipping/return"
+      ]
+    },
+    {
+      "root": "pages/user",
+      "pages": [
+        "live",
+        "userlist",
+        "userinfo/userinfo",
+        "collection/collection",
+        "footprint/footprint",
+        "address/address",
+        "address/manage",
+        "money/pay",
+        "money/success",
+        "account/recharge",
+        "account/level",
+        "account/account",
+        "account/withdrawal",
+        "account/bill",
+        "account/integral",
+        "virtual/index",
+        "virtual/detail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "云南怡健疗养",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#2979ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home01.png",
+        "selectedIconPath": "static/home01.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "__usePrivacyCheck__": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取对应的城市定位"
+    }
+  },
+  "usingComponents": {
+    "painter": "/wxcomponents/painter/painter",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "rf-image": "/components/rf-image/rf-image",
+    "rf-empty": "/components/rf-empty/index",
+    "rf-loading": "/components/rf-loading/index",
+    "rf-load-progress": "/components/rf-load-progress/rf-load-progress",
+    "rf-parser": "/components/rf-parser/index",
+    "rf-back-top": "/components/rf-back-top/index",
+    "rf-back-home": "/components/rf-back-home/index",
+    "rf-tag": "/components/rf-tag/index",
+    "rf-nav-detail": "/components/rf-nav-detail/index",
+    "cu-custom": "/components/cu-custom/index",
+    "rf-home-product-list": "/components/home/rf-home-product-list/index"
+  }
+}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.ws-privacy-popup.data-v-1948e460 {
+  padding: 48rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 560rpx;
+  background: linear-gradient(180deg, #e5edff 0%, #ffffff 100%);
+  border-radius: 24rpx;
+}
+.ws-privacy-popup__header.data-v-1948e460 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 52rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 550;
+  color: #1a1a1a;
+  line-height: 52rpx;
+  margin-bottom: 48rpx;
+}
+.ws-privacy-popup__container.data-v-1948e460 {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  line-height: 48rpx;
+  margin-bottom: 48rpx;
+}
+.ws-privacy-popup__container-protocol.data-v-1948e460 {
+  font-weight: 550;
+  color: #4D80F0;
+}
+.ws-privacy-popup__footer.data-v-1948e460 {
+  display: flex;
+  flex-direction: column;
+}
+.ws-privacy-popup__footer .is-disagree.data-v-1948e460,
+.ws-privacy-popup__footer .is-agree.data-v-1948e460 {
+  width: 100%;
+  height: 88rpx;
+  background: #ffffff;
+  border-radius: 44rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+}
+.ws-privacy-popup__footer .is-agree.data-v-1948e460 {
+  background: #4D80F0;
+  color: #ffffff;
+  margin-bottom: 18rpx;
+}
+.ws-privacy-popup__footer button.data-v-1948e460 {
+  border: none;
+  outline: none;
+}
+.ws-privacy-popup__footer button.data-v-1948e460::after {
+  border: none;
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "发布宠物殡葬信息",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-picker": "/uview-ui/components/u-picker/u-picker"
+  }
+}

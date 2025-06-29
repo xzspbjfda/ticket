@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.peopleitem.data-v-0bd1c684 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+.paybox.data-v-0bd1c684 {
+  width: 100%;
+  height: 130rpx;
+  background: #fff;
+  padding: 10rpx;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.paybox .paybtn.data-v-0bd1c684 {
+  width: 220rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: #fff;
+  border-radius: 40rpx;
+}
+.formbox.data-v-0bd1c684 {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 15rpx;
+  margin-bottom: 20rpx;
+}

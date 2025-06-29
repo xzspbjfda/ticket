@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "付费问答",
+  "usingComponents": {
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "post-mescroll-item": "/pages/pet/mescroll-item/post-mescroll-item"
+  }
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.uni-popup.data-v-56358205 {
+  position: fixed;
+  z-index: 99;
+}
+.uni-popup.top.data-v-56358205, .uni-popup.left.data-v-56358205, .uni-popup.right.data-v-56358205 {
+  top: 0;
+}
+.uni-popup .uni-popup__wrapper.data-v-56358205 {
+  display: block;
+  position: relative;
+  /* iphonex 等安全区设置，底部安全区适配 */
+}
+.uni-popup .uni-popup__wrapper.left.data-v-56358205, .uni-popup .uni-popup__wrapper.right.data-v-56358205 {
+  padding-top: 0;
+  flex: 1;
+}
+.fixforpc-z-index.data-v-56358205 {
+  z-index: 999;
+}
+.fixforpc-top.data-v-56358205 {
+  top: 0;
+}

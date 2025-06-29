@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.ggitem {
+  width: 100%;
+}
+.demo-warter {
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #ffffff;
+  padding: 8px;
+  position: relative;
+}
+.u-close {
+  position: absolute;
+  top: 32rpx;
+  right: 32rpx;
+}
+.demo-image {
+  width: 100%;
+  border-radius: 4px;
+}
+.demo-title {
+  font-size: 30rpx;
+  margin-top: 5px;
+  color: #303133;
+}
+.demo-tag {
+  display: flex;
+  margin-top: 5px;
+}
+.demo-tag-owner {
+  background-color: #fa3534;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 4rpx 14rpx;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  line-height: 1;
+}
+.demo-tag-text {
+  border: 1px solid #2979ff;
+  color: #2979ff;
+  margin-left: 10px;
+  border-radius: 50rpx;
+  line-height: 1;
+  padding: 4rpx 14rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+}
+.demo-price {
+  font-size: 30rpx;
+  color: #fa3534;
+  margin-top: 5px;
+}
+.demo-shop {
+  font-size: 22rpx;
+  color: #909399;
+  margin-top: 5px;
+}
+page {
+  background: #F5F5F5;
+}
+page .indextop {
+  width: 100%;
+  padding-top: 70rpx;
+  padding-bottom: 20rpx;
+}
+page .indextop .indextop-info {
+  width: 90%;
+  margin: 0 auto;
+}
+page .indextop .indextop-info .indextop-info-title {
+  margin-bottom: 20rpx;
+  width: 100rpx;
+}
+page .indextop .indextop-info .indextop-label {
+  margin-top: 20rpx;
+}
+page .indextop .indextop-info .indextop-label .indextop-labelitem {
+  padding: 10rpx;
+  margin-right: 10rpx;
+  background: #FEF092;
+  color: #000;
+  border-radius: 10rpx;
+  font-size: 20rpx;
+}
+page .wrap {
+  /*轮播图2*/
+  /*频道列表*/
+  /*宠物列表*/
+  /*版权显示*/
+}
+page .wrap .steertabar .steericon {
+  height: 40rpx;
+}
+page .wrap .slot-wrap {
+  display: flex;
+  align-items: center;
+  /* flex: 1; */
+  padding: 0 30rpx;
+}
+page .wrap .slot-wrap .city {
+  max-width: 150rpx;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+page .wrap .swiper-adv {
+  background: #fff;
+}
+page .wrap .swiper-adv .swiper-box {
+  width: 100%;
+  height: 350rpx;
+  overflow: hidden;
+  border-radius: 15rpx;
+}
+page .wrap .swiper-adv .swiper-box swiper {
+  width: 100%;
+  height: 40vw;
+}
+page .wrap .swiper-item-text {
+  position: absolute;
+  bottom: 16rpx;
+  left: 30rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  background: rgba(0, 0, 0, 0.2);
+  width: 90%;
+  color: #fff;
+  border-bottom-left-radius: 12rpx;
+  padding-left: 20rpx;
+}
+page .wrap .channel-wrap {
+  height: 220rpx;
+  background-color: #FFF;
+  padding: 30rpx 50rpx 0 50rpx;
+}
+page .wrap .channel-wrap .channel-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+page .wrap .channel-wrap .channel-list .channel {
+  margin-top: 10rpx;
+  width: calc(20% - 20rpx);
+  height: 132rpx;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+page .wrap .channel-wrap .channel-list .channel .icon-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+page .wrap .channel-wrap .channel-list .channel .icon-wrap .iconimg {
+  height: 80rpx;
+}
+page .wrap .channel-wrap .channel-list .channel .text {
+  width: 100%;
+  color: #333;
+  font-size: 26rpx;
+  margin-top: 16rpx;
+}
+page .wrap .pet-wrap {
+  margin-top: 20rpx;
+  background: #fff;
+}
+page .wrap .pet-wrap .sticky {
+  display: flex;
+  align-items: center;
+}
+page .wrap .pet-wrap .sticky .sticky-tabs {
+  width: 80%;
+}
+page .wrap .pet-wrap .sticky .sticky-more {
+  width: 20%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #999;
+  font-size: 28rpx;
+  background: #FFF;
+  text-align: center;
+}
+page .wrap .copyright {
+  margin: 10rpx 0;
+  width: 100%;
+  text-align: center;
+  color: #666;
+}
+page .wrap .copyright ._a {
+  display: block;
+  color: #666;
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar"
+  }
+}

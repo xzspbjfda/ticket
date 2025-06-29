@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.item {
+  background: #FFF;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24rpx;
+  margin: 30rpx;
+}
+.item .left {
+  flex-basis: 33%;
+}
+.item .right {
+  width: 67%;
+  padding: 0 24rpx;
+}
+.item .right .title {
+  font-size: 30rpx;
+  margin-top: -10rpx;
+}
+.item .right .base {
+  margin-top: 12rpx;
+}
+.item .right .base .tag {
+  height: 40rpx;
+  line-height: 40rpx;
+  background: #F6F7FB;
+  color: #666;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  margin-right: 14rpx;
+  display: inline-block;
+}
+.item .right .base .tag:nth-child(3) {
+  margin-right: 0;
+}
+.item .right .status {
+  margin-top: 12rpx;
+}
+.item .right .status .tag {
+  height: 38rpx;
+  line-height: 38rpx;
+  color: #CCC;
+  font-size: 24rpx;
+  margin-right: 14rpx;
+  border: 2rpx #CCC solid;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  display: inline-block;
+}
+.item .right .status .tag:nth-child(3) {
+  margin-right: 0;
+}
+.item .right .area {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+.item .right .reward {
+  color: #EB568F;
+  font-size: 24rpx;
+}
+.item .right .reward .money {
+  color: #EB568F;
+  font-size: 40rpx;
+}
+.item .right .summary {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+.item .bottom {
+  color: #999;
+  display: flex;
+  flex-basis: 100%;
+  margin-top: 20rpx;
+}
+.item .bottom .datetime {
+  font-size: 22rpx;
+}
+.item .bottom .view {
+  font-size: 22rpx;
+  margin-left: 40rpx;
+}
+.item .bottom .share {
+  font-size: 22rpx;
+  margin-left: 30rpx;
+}

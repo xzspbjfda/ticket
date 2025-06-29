@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "rf-attr-content": "/components/rf-attr-content/index"
+  }
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page.data-v-20d3067a {
+  background-color: #f8f8f8;
+}
+.virtual .left .image.data-v-20d3067a {
+  width: 160rpx;
+  height: 140rpx;
+  border-radius: 12rpx;
+  margin-right: 20rpx;
+}
+.virtual .mid .title.data-v-20d3067a {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: #303133;
+}
+.virtual .mid .time.data-v-20d3067a {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #909399;
+}
+.virtual .right.data-v-20d3067a {
+  margin-left: 30rpx;
+  text-align: center;
+}
+.virtual .right .change-num.data-v-20d3067a {
+  font-size: 28rpx;
+}

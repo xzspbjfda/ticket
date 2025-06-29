@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.title.data-v-8aaadc0e {
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.borderbn.data-v-8aaadc0e {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.box.data-v-8aaadc0e {
+  padding: 20rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+}
+.toptitle.data-v-8aaadc0e {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20rpx;
+  width: 100%;
+}

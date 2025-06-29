@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.versionUpgrade.data-v-6c1811cc {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upgrade-wrapper.data-v-6c1811cc {
+  margin-top: -80rpx;
+  width: 500rpx;
+  min-height: 500rpx;
+  max-height: 800rpx;
+}
+.rf-version-upgrade.data-v-6c1811cc {
+  z-index: 9999999;
+  width: 100%;
+  border-radius: 12rpx;
+  background: #ffffff;
+}
+.rf-version-upgrade .upgrade-top-img image.data-v-6c1811cc {
+  width: 100%;
+  height: 240rpx;
+}
+.rf-version-upgrade .versionUpgradeViewV2.data-v-6c1811cc {
+  display: flex;
+  flex-direction: column !important;
+  padding: 30rpx;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .upgrade-info .content-title.data-v-6c1811cc {
+  font-size: 28rpx;
+  color: #303133;
+  margin-bottom: 10rpx;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .upgrade-info .content-text.data-v-6c1811cc {
+  font-size: 24rpx;
+  color: #909399;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .confirm-btn.data-v-6c1811cc {
+  width: 90%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewIs_force0.data-v-6c1811cc {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewIs_force0 .text.data-v-6c1811cc {
+  padding: 10rpx 70rpx;
+  border-radius: 30rpx;
+  font-size: 16px;
+  color: #ffffff;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewIs_force0 .butClose.data-v-6c1811cc {
+  background: #e2e2e2;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewIs_force0 .download.data-v-6c1811cc {
+  background: #ff5722;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewIs_force0 .downloadIs_force1.data-v-6c1811cc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 0;
+  border-radius: 30rpx;
+  font-size: 16px;
+  color: #ffffff;
+  background: #ff5722;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewStartTrue.data-v-6c1811cc {
+  display: flex;
+  flex-direction: column !important;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewStartTrue .title.data-v-6c1811cc {
+  font-size: 14px;
+  color: #626262;
+  padding: 10rpx 0;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewStartTrue .btn-text.data-v-6c1811cc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 0;
+  border-radius: 30rpx;
+  font-size: 16px;
+  color: #ffffff;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewStartTrue .downloadStartTrue.data-v-6c1811cc {
+  background: #ff5722;
+}
+.rf-version-upgrade .versionUpgradeViewV2 .versionUpgradeViewStartTrue .downloadStartFalse.data-v-6c1811cc {
+  background: #e2e2e2;
+}
+.close-upgrade.data-v-6c1811cc {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.close-upgrade .line.data-v-6c1811cc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.close-upgrade .line .close-upgrade-line.data-v-6c1811cc {
+  width: 1rpx;
+  height: 72rpx;
+  background: #fff;
+  opacity: 0.6;
+}
+.close-upgrade .iconfont.data-v-6c1811cc {
+  font-size: 32rpx;
+  margin-top: -12rpx;
+  display: inline-block;
+}

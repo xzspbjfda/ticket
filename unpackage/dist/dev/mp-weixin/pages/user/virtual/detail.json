@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "虚拟码详情",
+  "usingComponents": {
+    "rf-image": "/components/rf-image/rf-image",
+    "rf-qrcode": "/components/rf-qrcode/index",
+    "rf-no-data": "/components/rf-no-data/index"
+  }
+}

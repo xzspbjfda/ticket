@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.main {
+  padding: 20rpx;
+}
+.pfbox {
+  padding: 6rpx;
+  width: 100rpx;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  border-top-left-radius: 10rpx;
+  border-bottom-right-radius: 15rpx;
+}
+.info_item {
+  margin-top: 20rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.dgbtn {
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 10rpx;
+  border-radius: 15rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: #FFF;
+}

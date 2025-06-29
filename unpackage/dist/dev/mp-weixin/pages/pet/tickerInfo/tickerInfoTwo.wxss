@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.active {
+  background: #c2e9fb !important;
+}
+.topInfo {
+  width: 100%;
+  padding: 25rpx;
+  background: #fff;
+}
+.ticketList {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.ticketList .ticketItem {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 30rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+.ticketList .ticketItem .Itemtop .Itemtitle {
+  font-size: 38rpx;
+  font-weight: bold;
+}
+.ticketList .ticketItem .Itemtop .btnText {
+  width: 70rpx;
+  height: 70rpx;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: bold;
+  border-radius: 15rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+.ticketList .ticketItem .Itembody {
+  display: flex;
+  align-items: center;
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #848484;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.process_text {
+  position: relative;
+}
+.process_text .process_left {
+  position: absolute;
+  top: 200rpx;
+  left: 40rpx;
+}
+.process_text .process_left image {
+  width: 44rpx;
+  height: 44rpx;
+}
+.set-2:last-child::after {
+  display: none;
+}
+.set-2 {
+  border-radius: 10rpx;
+  width: 600rpx;
+  margin-left: 60rpx;
+  position: relative;
+}
+.set-2 .set-view {
+  width: 100%;
+}
+.set-2 .set-view .set-view-test {
+  margin: 0 auto;
+  padding-top: 26rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #EFEFEF;
+}
+.set-2 .set-view .set-view-test .set-view-test2 {
+  width: 100%;
+  height: 26rpx;
+  font-family: Gibson;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.set-2 .set-view .iteminfo {
+  display: flex;
+  justify-content: space-between;
+}
+.set-2 .set-view .iteminfo .leftbox {
+  display: flex;
+  flex-direction: column;
+  color: #848484;
+}
+.set-2 .set-view .iteminfo .leftbox .leftbox_1 {
+  display: flex;
+}
+.set-2 .set-view .iteminfo .leftbox .leftbox_1 image {
+  width: 30rpx;
+}
+.set-2 .set-view .iteminfo .rightbox {
+  color: #848484;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/* 普通 */
+.set-2 .img-border {
+  width: 18rpx;
+  height: 17rpx;
+  background: gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: -1rpx;
+  left: -58rpx;
+  z-index: 100;
+}
+/* 特殊 */
+.set-2:nth-of-type(1) > .img-border {
+  width: 38rpx;
+  height: 38rpx;
+  background: #FFCCD8;
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  margin-top: -3rpx;
+  left: -68rpx;
+  z-index: 100;
+}
+.set-2:nth-of-type(1) .left_img {
+  border-radius: 50%;
+  width: 16rpx;
+  height: 16rpx;
+  background: #FE3666;
+  top: 50%;
+  margin-top: 13rpx;
+  margin-left: 10rpx;
+}
+.left_line_up {
+  position: absolute;
+  top: -4rpx;
+  left: -52rpx;
+  height: 80%;
+  margin-top: -22rpx;
+  border-style: solid;
+  border-left: 1rpx;
+  border-color: #ccc;
+}
+.left_line_down {
+  position: absolute;
+  top: 18%;
+  left: -52rpx;
+  height: 60%;
+  margin-top: 22rpx;
+  border-style: solid;
+  border-left: 1rpx;
+  border-color: #ccc;
+}
