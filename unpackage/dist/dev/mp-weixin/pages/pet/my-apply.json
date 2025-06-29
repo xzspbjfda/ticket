@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的申请",
+  "usingComponents": {
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "my-apply-mescroll-item": "/pages/pet/mescroll-item/my-apply-mescroll-item"
+  }
+}

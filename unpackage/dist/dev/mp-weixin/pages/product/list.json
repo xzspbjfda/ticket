@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "商城",
+  "usingComponents": {
+    "rf-load-more": "/components/rf-load-more/rf-load-more",
+    "uni-drawer": "/components/uni-drawer/drawer",
+    "rf-product-list": "/components/rf-product-list/index",
+    "rf-attr-content": "/components/rf-attr-content/index",
+    "rf-top-drawer": "/components/rf-top-drawer/index"
+  }
+}

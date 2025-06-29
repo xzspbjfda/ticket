@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-image": "/uview-ui/components/u-image/u-image"
+  },
+  "component": true
+}

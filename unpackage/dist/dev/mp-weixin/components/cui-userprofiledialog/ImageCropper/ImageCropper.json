@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cropper": "/components/cui-userprofiledialog/ImageCropper/components/uniapp-nice-cropper/cropper"
+  }
+}

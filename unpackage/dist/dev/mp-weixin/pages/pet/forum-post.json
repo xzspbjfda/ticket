@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "发布帖子",
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "tm-upload": "/components/tm-upload/tm-upload",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-subsection": "/uview-ui/components/u-subsection/u-subsection",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="wrap"><web-view src="{{url}}" webview-styles="{{webviewStyles}}"></web-view></view>

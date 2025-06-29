@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #fff;
+}
+page .wrap {
+  background: #F5F5F5;
+}
+page .wrap .swiper-box {
+  height: 600rpx;
+}
+page .wrap .swiper-box video {
+  width: 100%;
+  height: 600rpx;
+}
+page .wrap .slot-content image {
+  display: block;
+}
+page .wrap .subwrap {
+  background: #fff;
+  padding: 0 30rpx;
+}
+page .wrap .subwrap .title {
+  font-size: 30rpx;
+}
+page .wrap .subwrap .reward {
+  color: #EB568F;
+  font-size: 24rpx;
+}
+page .wrap .subwrap .reward .money {
+  color: #EB568F;
+  font-size: 40rpx;
+}
+page .wrap .subwrap .feature {
+  display: flex;
+}
+page .wrap .subwrap .feature .left {
+  flex-basis: 20%;
+}
+page .wrap .subwrap .feature .right {
+  flex-basis: 80%;
+}
+page .wrap .subwrap .feature .right .nickname {
+  color: #333;
+  font-size: 30rpx;
+}
+page .wrap .subwrap .feature .right .base {
+  margin-top: 10rpx;
+}
+page .wrap .subwrap .feature .right .base .tag {
+  height: 38rpx;
+  line-height: 38rpx;
+  color: #01040A;
+  font-size: 24rpx;
+  margin-right: 14rpx;
+  background: #FFF2BF;
+  border: 2rpx #FFF2BF solid;
+  border-radius: 6rpx;
+  text-align: center;
+  padding: 0 20rpx;
+  display: inline-block;
+}
+page .wrap .subwrap .reward {
+  color: #EB568F;
+  font-size: 24rpx;
+}
+page .wrap .subwrap .reward .money {
+  color: #EB568F;
+  font-size: 50rpx;
+}
+page .wrap .subwrap .summary {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+page .wrap .subwrap .info {
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+}
+page .wrap .subwrap .info .datetime {
+  flex-basis: 50%;
+  font-size: 22rpx;
+}
+page .wrap .subwrap .info .like {
+  flex-basis: 14%;
+  font-size: 22rpx;
+  margin-left: 40rpx;
+}
+page .wrap .subwrap .info .view {
+  flex-basis: 18%;
+  font-size: 22rpx;
+  margin-left: 40rpx;
+}
+page .wrap .subwrap .info .share {
+  flex-basis: 18%;
+  font-size: 22rpx;
+  margin-left: 30rpx;
+}
+page .wrap .subwrap .sheet {
+  color: #999;
+}
+page .wrap .subwrap .sheet .datetime {
+  font-size: 24rpx;
+}
+page .wrap .subwrap .sheet .address {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+page .wrap .subwrap .user {
+  display: flex;
+}
+page .wrap .subwrap .user .left {
+  flex-basis: 22%;
+}
+page .wrap .subwrap .user .right {
+  flex-grow: 1;
+}
+page .wrap .subwrap .user .right .nickname {
+  color: #262628;
+  font-size: 30rpx;
+}
+page .wrap .subwrap .user .right .nickname .level {
+  color: #666;
+  margin-left: 10rpx;
+  display: inline-block;
+}
+page .wrap .subwrap .user .right .nickname .level text {
+  font-size: 30rpx;
+}
+page .wrap .subwrap .user .right .profile {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+  display: flex;
+}
+page .wrap .subwrap .user .right .profile text {
+  padding: 0 10rpx;
+}
+page .wrap .subwrap .contact {
+  display: flex;
+  justify-content: space-around;
+}
+page .wrap .subwrap .contact .contact-item {
+  text-align: center;
+}
+page .wrap .subwrap .contact .contact-item .icon {
+  display: flex;
+  justify-content: center;
+}
+page .wrap .subwrap .contact .contact-item .name {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+page .wrap .subwrap .subtitle {
+  color: #333;
+  font-size: 30rpx;
+}
+page .wrap .subwrap .subtitle .line {
+  width: 6rpx;
+  height: 26rpx;
+  border-radius: 6rpx;
+  display: inline-block;
+  margin: 10rpx 16rpx 0 0;
+}
+page .wrap .subwrap .content {
+  line-height: 48rpx;
+  color: #666;
+  font-size: 30rpx;
+}
+page .wrap .subwrap .comments .item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60rpx;
+}
+page .wrap .subwrap .comments .item .left {
+  flex-basis: 16%;
+}
+page .wrap .subwrap .comments .item .center {
+  flex-basis: 76%;
+}
+page .wrap .subwrap .comments .item .center .nickname {
+  color: #333;
+  font-size: 24rpx;
+  margin-top: 6rpx;
+}
+page .wrap .subwrap .comments .item .center .datetime {
+  color: #999;
+  font-size: 20rpx;
+}
+page .wrap .subwrap .comments .item .right {
+  flex-basis: 6%;
+  text-align: center;
+}
+page .wrap .subwrap .comments .item .right image {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+}
+page .wrap .subwrap .comments .item .right .like image {
+  height: 26rpx;
+}
+page .wrap .subwrap .comments .bottom {
+  flex-basis: 100%;
+}
+page .wrap .subwrap .comments .bottom .content {
+  color: #333;
+  font-size: 24rpx;
+  padding-top: 10rpx;
+}
+page .wrap .comments-wrap {
+  margin-bottom: 150rpx;
+}
+page .wrap .nav-bottom {
+  width: 100%;
+  background: #FFF;
+  border: 2rpx #F2F2F2 solid;
+  position: fixed;
+  bottom: 0;
+  padding: 16rpx 0 10rpx 0;
+  display: flex;
+}
+page .wrap .nav-bottom .left {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+page .wrap .nav-bottom .left .item {
+  text-align: center;
+}
+page .wrap .nav-bottom .left .item image {
+  width: 40rpx;
+  height: 38rpx;
+}
+page .wrap .nav-bottom .left .item .text {
+  color: #333;
+  font-size: 20rpx;
+}
+page .wrap .nav-bottom .left button.item {
+  line-height: 44rpx;
+  font-size: 28rpx;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+page .wrap .nav-bottom .left button:after {
+  border: 0;
+}
+page .wrap .nav-bottom .right {
+  flex-grow: 1;
+  text-align: center;
+}

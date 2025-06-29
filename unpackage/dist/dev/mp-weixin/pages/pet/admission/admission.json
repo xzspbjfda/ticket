@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "h-m-filter-dropdown": "/uni_modules/HM-filterDropdown/components/HM-filterDropdown/HM-filterDropdown",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

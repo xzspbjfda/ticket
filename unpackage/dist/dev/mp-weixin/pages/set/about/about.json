@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "rf-qrcode": "/components/rf-qrcode/index"
+  }
+}

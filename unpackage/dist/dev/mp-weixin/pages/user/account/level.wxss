@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #fff;
+}
+.rf-account-level {
+  padding: 30rpx;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.rf-account-level .flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rf-account-level .flex-box > .item-2 {
+  flex: 0 0 50%;
+}
+.rf-account-level .flex-box > .item-3 {
+  flex: 0 0 33.3333%;
+  height: 80rpx;
+}
+.rf-account-level .flex-box > .item-4 {
+  flex: 0 0 25%;
+}
+.rf-account-level .title {
+  margin: 30rpx 0;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333;
+}
+.rf-account-level .genaral-area .item-2 {
+  font-size: 26rpx;
+  border: 1rpx solid #e0e0e0;
+  border-width: 1rpx 1rpx 0 0;
+  padding: 16rpx 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.rf-account-level .genaral-area .item-2:first-child {
+  border-left-width: 1rpx;
+}
+.rf-account-level .genaral-area .item-2:last-child {
+  border-right-width: 1rpx;
+}
+.rf-account-level .genaral-area .thead .item-2 {
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.rf-account-level .genaral-area .table:last-child {
+  border-bottom: 1rpx solid #e0e0e0;
+}
+.rf-account-level .genaral-area .table .item-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rf-account-level .advance-area .item-3,
+.rf-account-level .advance-area .item-4 {
+  font-size: 26rpx;
+  border: 1rpx solid #e0e0e0;
+  border-width: 1rpx 1rpx 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.rf-account-level .advance-area .item-3:first-child,
+.rf-account-level .advance-area .item-4:first-child {
+  border-left-width: 1rpx;
+}
+.rf-account-level .advance-area .item-3:last-child,
+.rf-account-level .advance-area .item-4:last-child {
+  border-right-width: 1rpx;
+}
+.rf-account-level .advance-area .thead .item-3,
+.rf-account-level .advance-area .thead .item-4 {
+  font-weight: bold;
+  padding: 16rpx 0;
+  box-sizing: border-box;
+}
+.rf-account-level .advance-area .table:last-child {
+  border-bottom: 1rpx solid #e0e0e0;
+}
+.rf-account-level .advance-area .table .item-3,
+.rf-account-level .advance-area .table .item-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rf-account-level .advance-area .table-flex {
+  flex: 1;
+}
+.rf-account-level .advance-area .table-flex .item {
+  border-bottom: 1rpx solid #e0e0e0;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}
+.rf-account-level .advance-area .table-flex .item:last-child {
+  border-width: 0;
+}
+.rf-account-level .advance-area .font-sm {
+  font-size: 24rpx;
+  padding: 0 10rpx;
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "互助社区",
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "post-mescroll-item": "/pages/pet/mescroll-item/post-mescroll-item"
+  }
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.waterfall {
+  width: 100%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.waterfall .waterfall_left {
+  float: left;
+  width: 47%;
+}
+.waterfall .waterfall_left .waterfall_list {
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-bottom: 15rpx;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.waterfall .waterfall_right {
+  float: right;
+  width: 47%;
+}
+.waterfall .waterfall_right .waterfall_list {
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-bottom: 15rpx;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

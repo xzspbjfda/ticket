@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #F5F5F5;
+}
+page .wrap .sticky {
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  padding: 0 30rpx;
+}
+page .wrap .sticky .sticky-tabs {
+  width: 85%;
+}
+page .wrap .sticky .sticky-post {
+  flex-grow: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #FFF;
+  color: #999;
+  font-size: 28rpx;
+}

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #F5F5F5;
+}
+page .wrap {
+  padding: 30rpx 30rpx;
+}
+page .wrap .subwrap {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 20rpx 0;
+  margin-top: 110rpx;
+}
+page .wrap .subwrap .info {
+  margin-top: -120rpx;
+}
+page .wrap .subwrap .info .avatar {
+  text-align: center;
+  position: relative;
+}
+page .wrap .subwrap .info .nickname {
+  color: #262628;
+  font-size: 34rpx;
+  text-align: center;
+  margin: 20rpx 0;
+}
+page .wrap .subwrap .base {
+  display: flex;
+  justify-content: space-around;
+  color: #C1C0C9;
+  margin: 20rpx 0;
+}
+page .wrap .subwrap .base image {
+  width: 24rpx;
+  height: 26rpx;
+  margin-left: 10rpx;
+}
+page .wrap .subwrap .follow {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30rpx;
+}
+page .wrap .subwrap .follow .title {
+  color: #C1C0C9;
+  font-size: 24rpx;
+}
+page .wrap .subwrap .follow .count {
+  color: #262628;
+  font-size: 40rpx;
+}
+page .wrap .subwrap .services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  text-align: center;
+}
+page .wrap .subwrap .services .title {
+  color: #333;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+page .wrap .subwrap .services .my-notice image {
+  width: 60rpx;
+  height: 48rpx;
+}
+page .wrap .subwrap .services .my-post image {
+  width: 50rpx;
+  height: 56rpx;
+}
+page .wrap .subwrap .services .my-apply image {
+  width: 50rpx;
+  height: 56rpx;
+}
+page .wrap .subwrap .services .my-pet image {
+  width: 27rpx;
+  height: 58rpx;
+}
+page .wrap .subwrap .helpers .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+  text-align: left;
+}
+page .wrap .subwrap .helpers .item .icon {
+  width: 44rpx;
+  height: 44rpx;
+  vertical-align: middle;
+}
+page .wrap .subwrap .helpers .item .title {
+  color: #262626;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+page .wrap .subwrap .helpers .item .more {
+  width: 14rpx;
+  height: 24rpx;
+}

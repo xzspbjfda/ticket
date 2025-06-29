@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.bqbox.data-v-caaea6a6 {
+  width: 100rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  padding: 2rpx;
+  font-size: 22rpx;
+}
+.textmore.data-v-caaea6a6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*隐藏溢出*/
+  /*当文本溢出包含元素时显示省略符号来代表被修剪的文本*/
+  /*规定段落中的文本不进行换行*/
+}
+page.data-v-caaea6a6 {
+  background: #fff !important;
+}
+.title.data-v-caaea6a6 {
+  width: 100%;
+  font-size: 35rpx;
+  font-weight: bold;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-line;
+}
+.wrap.data-v-caaea6a6 {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.List_item.data-v-caaea6a6 {
+  display: flex;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.siftbox.data-v-caaea6a6 {
+  width: 100%;
+  background: #fff;
+}
+.seachtop.data-v-caaea6a6 {
+  display: flex;
+  align-items: center;
+  z-index: 10999;
+  height: 110rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 20rpx;
+  width: 100%;
+  padding: 20rpx;
+}
+.seachtop .seachtop_left.data-v-caaea6a6 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #F4F3F4;
+  border-top-left-radius: 35rpx;
+  border-bottom-left-radius: 35rpx;
+}
+.seachtop .seachtop_right.data-v-caaea6a6 {
+  overflow: hidden;
+  margin-left: 2rpx;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  background: #F4F3F4;
+  border-top-right-radius: 35rpx;
+  border-bottom-right-radius: 35rpx;
+}
+.demo-warter.data-v-caaea6a6 {
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #ffffff;
+  padding: 8px;
+  position: relative;
+}
+.u-close.data-v-caaea6a6 {
+  position: absolute;
+  top: 32rpx;
+  right: 32rpx;
+}
+.demo-image.data-v-caaea6a6 {
+  width: 100%;
+  border-radius: 4px;
+}
+.demo-title.data-v-caaea6a6 {
+  font-size: 30rpx;
+  margin-top: 5px;
+  color: #303133;
+}
+.demo-tag.data-v-caaea6a6 {
+  display: flex;
+  margin-top: 5px;
+}
+.demo-tag-owner.data-v-caaea6a6 {
+  background-color: #fa3534;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 4rpx 14rpx;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  line-height: 1;
+}
+.demo-tag-text.data-v-caaea6a6 {
+  border: 1px solid #2979ff;
+  color: #2979ff;
+  margin-left: 10px;
+  border-radius: 50rpx;
+  line-height: 1;
+  padding: 4rpx 14rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+}
+.demo-price.data-v-caaea6a6 {
+  font-size: 30rpx;
+  color: #fa3534;
+  margin-top: 5px;
+}
+.demo-shop.data-v-caaea6a6 {
+  font-size: 22rpx;
+  color: #909399;
+  margin-top: 5px;
+}

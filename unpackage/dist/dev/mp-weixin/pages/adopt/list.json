@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "领养中心",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-tabs-swiper": "/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "pet-mescroll-item": "/pages/adopt/pet-mescroll-item"
+  }
+}

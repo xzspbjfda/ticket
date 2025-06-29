@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-popup": "/components/cui-userprofiledialog/uni-popup/uni-popup",
+    "cui-button": "/components/cui-button/cui-button",
+    "image-cropper": "/components/cui-userprofiledialog/ImageCropper/ImageCropper"
+  }
+}

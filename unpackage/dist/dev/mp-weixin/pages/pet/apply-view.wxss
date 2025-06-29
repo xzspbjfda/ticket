@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #fff;
+}
+page .wrap {
+  background: #F5F5F5;
+  padding: 30rpx 0 200rpx 0;
+}
+page .wrap .subtitle {
+  color: #333;
+  font-size: 30rpx;
+  margin: 0 30rpx;
+}
+page .wrap .subtitle .line {
+  width: 6rpx;
+  height: 26rpx;
+  background: #FFCE0C;
+  border-radius: 6rpx;
+  display: inline-block;
+  margin: 10rpx 16rpx 0 0;
+}
+page .wrap .subwrap {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 0 30rpx;
+  margin: 30rpx 30rpx 0 30rpx;
+}
+page .wrap .subwrap .user {
+  display: flex;
+}
+page .wrap .subwrap .user .left {
+  flex-basis: 22%;
+}
+page .wrap .subwrap .user .right {
+  flex-grow: 1;
+}
+page .wrap .subwrap .user .right .nickname {
+  color: #262628;
+  font-size: 30rpx;
+}
+page .wrap .subwrap .user .right .nickname .level {
+  color: #666;
+  margin-left: 10rpx;
+  display: inline-block;
+}
+page .wrap .subwrap .user .right .nickname .level text {
+  font-size: 30rpx;
+}
+page .wrap .subwrap .user .right .profile {
+  color: #999;
+  font-size: 22rpx;
+  margin-top: 10rpx;
+  display: flex;
+}
+page .wrap .subwrap .user .right .profile text {
+  padding: 0 10rpx;
+}
+page .wrap .subwrap .contact {
+  display: flex;
+  justify-content: space-around;
+}
+page .wrap .subwrap .contact .contact-item {
+  text-align: center;
+}
+page .wrap .subwrap .contact .contact-item .icon {
+  display: flex;
+  justify-content: center;
+}
+page .wrap .subwrap .contact .contact-item .name {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+page .wrap .subwrap u-table {
+  table-layout: fixed;
+  width: 100%;
+}
+page .wrap .subwrap u-table u-tr {
+  line-height: 60rpx;
+}
+page .wrap .subwrap u-table u-tr u-th {
+  width: 33%;
+}
+page .wrap .subwrap u-table u-tr u-td {
+  width: 67%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+page .wrap .tips {
+  color: #999;
+  font-size: 24rpx;
+}
+page .wrap .item {
+  background: #FFF;
+  display: flex;
+  border-radius: 16rpx;
+  padding: 20rpx 20rpx;
+  margin: 30rpx;
+}
+page .wrap .item .left {
+  flex-basis: 33%;
+}
+page .wrap .item .right {
+  width: 67%;
+  padding: 0 24rpx;
+}
+page .wrap .item .right .title {
+  font-size: 30rpx;
+}
+page .wrap .item .right .title image {
+  width: 152rpx;
+  height: 38rpx;
+  vertical-align: top;
+  margin-left: 10rpx;
+}
+page .wrap .item .right .base {
+  margin-top: 12rpx;
+}
+page .wrap .item .right .base .tag {
+  height: 40rpx;
+  line-height: 40rpx;
+  background: #F6F7FB;
+  color: #666;
+  font-size: 24rpx;
+  border-radius: 6rpx;
+  padding: 0 20rpx;
+  margin-right: 14rpx;
+  display: inline-block;
+}
+page .wrap .item .right .base .tag:nth-child(3) {
+  margin-right: 0;
+}
+page .wrap .item .right .summary {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 14rpx;
+}
+page .wrap .item .right .status {
+  margin-top: 12rpx;
+}
+page .wrap .item .right .status .tag {
+  height: 38rpx;
+  line-height: 38rpx;
+  color: #CCC;
+  font-size: 24rpx;
+  margin-right: 14rpx;
+  border: 2rpx #CCC solid;
+  border-radius: 6rpx;
+  padding: 0 20rpx;
+  display: inline-block;
+}
+page .wrap .item .right .status .tag:nth-child(3) {
+  margin-right: 0;
+}
+page .wrap .nav-bottom {
+  width: 100%;
+  background: #FFF;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2rpx #F2F2F2 solid;
+  padding: 30rpx 0;
+}

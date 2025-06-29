@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.item {
+  background: #FFF;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24rpx;
+  margin: 30rpx 30rpx 0;
+}
+.item .left {
+  flex-basis: 33%;
+}
+.item .right {
+  width: 67%;
+  padding: 0 24rpx;
+}
+.item .right .title {
+  font-size: 30rpx;
+}
+.item .right .base {
+  margin-top: 10rpx;
+}
+.item .right .base .tag {
+  height: 38rpx;
+  line-height: 40rpx;
+  color: #666;
+  font-size: 24rpx;
+  margin-right: 14rpx;
+  background: #F6F7FB;
+  border-radius: 6rpx;
+  text-align: center;
+  padding: 0 20rpx;
+  display: inline-block;
+}
+.item .right .base .tag:nth-child(3) {
+  margin-right: 0;
+}
+.item .right .summary {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 14rpx;
+}
+.item .right .status {
+  margin-top: 14rpx;
+}
+.item .right .status .tag {
+  height: 38rpx;
+  line-height: 38rpx;
+  color: #61BDC6;
+  font-size: 24rpx;
+  margin-right: 14rpx;
+  background: #FFF;
+  border: 2rpx #61BDC6 solid;
+  border-radius: 6rpx;
+  text-align: center;
+  padding: 0 16rpx;
+  display: inline-block;
+}
+.item .right .status .tag:nth-child(3) {
+  margin-right: 0;
+}
+.item .bottom {
+  flex-basis: 100%;
+  margin-top: 20rpx;
+}
+.item .bottom .meta {
+  color: #999;
+  font-size: 22rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item .bottom .meta .datetime {
+  font-size: inherit;
+}
+.item .bottom .meta .view {
+  font-size: inherit;
+  padding: 0 10rpx;
+}
+.item .bottom .meta .share {
+  font-size: inherit;
+}
+.item .bottom .option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}

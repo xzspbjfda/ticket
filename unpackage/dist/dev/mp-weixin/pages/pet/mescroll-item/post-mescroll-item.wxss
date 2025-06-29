@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.item {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin: 30rpx;
+}
+.item .profile {
+  display: flex;
+}
+.item .profile .left {
+  flex-basis: 17%;
+}
+.item .profile .right {
+  flex-basis: 80%;
+}
+.item .profile .right .title {
+  color: #333;
+  font-size: 32rpx;
+}
+.item .profile .right .meta {
+  color: #999;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.item .profile .right .meta .nickname {
+  color: #666;
+  font-size: 24rpx;
+}
+.item .profile .right .meta .datetime {
+  color: #999;
+  font-size: 24rpx;
+}
+.item .profile .right .meta .view {
+  color: #999;
+  font-size: 24rpx;
+}
+.item .profile .right .meta .comment {
+  color: #999;
+  font-size: 24rpx;
+}
+.item .summary {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.item .images {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item .images u-image, .item .images .u-image {
+  margin: 16rpx 14rpx 0 0;
+}
+.item .images u-image:nth-child(3n+3), .item .images .u-image:nth-child(3n+3) {
+  margin: 16rpx 0 0 0;
+}
+.item  u-image {
+  margin-top: 16rpx;
+}
+.item .cate {
+  margin-top: 20rpx;
+}
+.item .cate .tag {
+  height: 38rpx;
+  line-height: 38rpx;
+  background: #FFF;
+  color: #CCC;
+  font-size: 24rpx;
+  border: 2rpx #CCC solid;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  display: inline-block;
+  text-align: center;
+}
